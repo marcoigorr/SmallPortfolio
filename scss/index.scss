@@ -1,8 +1,11 @@
 :root {
-    --black: #252526;
-    --grey: #1e1e1e;
-    --red_light: #FF0000;
-    --red_dark: #AF0404;
+    --black_pure :#000000;
+    --grey: #252526;
+    --black: #1e1e1e;
+    --grey_light: #d4d4d4;
+    --grey_dark: #4d4d4e;
+    --red_light: #ff0000;
+    --red_dark: #af0404;
 }
 
 * {
@@ -12,6 +15,9 @@
     font-family: sans-serif;
 
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    color: white;
 }
 
 body {
@@ -24,7 +30,7 @@ body {
 
         header {
             height: 10%;
-            background-color: var(--black);
+            background-color: var(--black_pure);
 
             display: flex;
             align-items: center;
@@ -34,45 +40,95 @@ body {
                 margin: 0 1.2em 0 3em;
                 max-height: 100%;
                 width: 4%;
+                cursor: pointer;
             }
 
             h1 {
                 padding: 1.2em;
 
-                color: white;              
+                color: var(--grey_light);
+            }
+
+            a {
+                margin-left: auto;
+                margin-right: 10vw;
+
+                text-decoration: none;
+                font-size: 16pt;
+                color: var(--grey_light);
+
+                transition: 0.4s;
+
+                &:hover {
+                    color: white;
+                }
             }
         }
-        
-        .main-section {
-            height: 90%;
 
-            div {
+
+        .container {
+            height: 100%;
+
+            .image {
                 width: 50%;
                 height: 50%;
-                float: left;
+                float: left ;
+                overflow-y: hidden;
 
-                color: white;
+                & div {
+                    height: 100%;
+                    width: 100%;
+
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: blur(4px);
+
+                    &#FearInoculum {
+                        background-image: url('https://nacionprogresiva.files.wordpress.com/2019/09/whatsapp-image-2019-09-09-at-19.46.531.jpeg');
+                    }
+                    &#Lateralus {
+                        background-image: url('https://cdn.wallpapersafari.com/42/99/v7JedV.jpg');
+                    }
+                    &#Days {
+                        background-image: url('https://www.rollingstone.com/wp-content/uploads/2018/06/rs-146282-1c26f0f04b4f46e335971adb04a50d71d3555e48.jpg?w=400');
+                    }
+                    &#Opitae {
+                        background-image: url('https://i.scdn.co/image/ab67616d0000b273ac74c9c72ab2e3be3d53225f');
+                    }
+                }  
                 
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              }
-              
-              #div1 {
-                background: #DDD;
-              }
-              
-              #div2 {
-                background: #AAA;
-              }
-              
-              #div3 {
-                background: #777;
-              }
-              
-              #div4 {
-                background: #444;
-              }
+                h2 {
+                    text-align: center;
+                    transform: translateY(-25vh);
+                }
+            }              
+        }
+
+        .about-me {
+            height: 50vh;
+            width: 100%;
+            background-color: var(--black);
+                        
+            border-top-left-radius: 250% 10em;
+            border-top-right-radius: 250% 10em;
+            margin-left: -2em;
+            padding-right: 2em;
+            
+            .content {
+                margin-left: 4em;
+                
+                h1 {
+                    font-size: 32pt;
+                    margin: 2em auto 1em auto;
+                    text-align: center;
+                }
+    
+                p {
+                    font-size: 22pt;
+                    margin: 0 auto;
+                    max-width: 60%;
+                }
+            }
         }
     }
 }
