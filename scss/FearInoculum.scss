@@ -1,18 +1,29 @@
 
 :root {
+    --gold: #f5db63;
     --title: #828282;
     --subtitle: #adadad;
+}
+
+gold {
+    color: var(--gold);
 }
 
 body {
     section {
         header {
             margin: 0 5em;
+
+            img#FearInoculumLogo {
+                margin: 0 0 0 1em;
+                max-height: 100%;
+                width: 18%;
+            }
         }
 
         hr {
             margin: 0 auto;
-            max-width: 90%;
+            width: 90%;
         }
 
         .main-section {
@@ -29,12 +40,12 @@ body {
 
                 img {
                     max-height: 100%;
-                    width: 38%;
+                    width: 36%;
                 }
 
                 .general-info {
                     display: block;
-                    width: 40%;
+                    width: 30%;
 
                     h1 {
                         color: var(--title);
@@ -101,10 +112,17 @@ body {
             }
         }
 
-        #footer-2 {
+        #bottom-hr {
+            width: 100%;
+        }
+
+        #footer-fearInoculum {
+            background-color: var(--gold);
             height: 8%;
 
             span {
+                font-weight: 500;
+                color: var(--black_pure);
                 margin-top: 2em;
             }
         }

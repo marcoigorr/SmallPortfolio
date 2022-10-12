@@ -1,14 +1,24 @@
 :root {
+  --gold: #f5db63;
   --title: #828282;
   --subtitle: #adadad;
+}
+
+gold {
+  color: var(--gold);
 }
 
 body section header {
   margin: 0 5em;
 }
+body section header img#FearInoculumLogo {
+  margin: 0 0 0 1em;
+  max-height: 100%;
+  width: 18%;
+}
 body section hr {
   margin: 0 auto;
-  max-width: 90%;
+  width: 90%;
 }
 body section .main-section {
   width: 100%;
@@ -22,11 +32,11 @@ body section .main-section .first-description {
 }
 body section .main-section .first-description img {
   max-height: 100%;
-  width: 38%;
+  width: 36%;
 }
 body section .main-section .first-description .general-info {
   display: block;
-  width: 40%;
+  width: 30%;
 }
 body section .main-section .first-description .general-info h1 {
   color: var(--title);
@@ -71,9 +81,15 @@ body section .main-section .second-description .tracklist h1 {
 body section .main-section .second-description .tracklist ol li {
   padding: 0.5em 0;
 }
-body section #footer-2 {
+body section #bottom-hr {
+  width: 100%;
+}
+body section #footer-fearInoculum {
+  background-color: var(--gold);
   height: 8%;
 }
-body section #footer-2 span {
+body section #footer-fearInoculum span {
+  font-weight: 500;
+  color: var(--black_pure);
   margin-top: 2em;
 }/*# sourceMappingURL=FearInoculum.css.map */
