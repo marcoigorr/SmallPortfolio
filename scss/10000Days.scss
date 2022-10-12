@@ -1,0 +1,124 @@
+
+:root {
+    --red_days: #ae0404;
+    --black_dark: #010101;
+    --grey_text: #696969;
+}
+
+body {
+    section#Days {
+        background-color: var(--red_days); 
+
+        header#Days {  
+            background-color: var(--red_days); 
+                     
+            img#DaysLogo {
+                margin: 0 0 0 4em;
+                max-height: 100%;
+                width: 6%;
+            }
+
+            a#days-aboutme {
+                font-size: 20pt;
+                font-weight: 520;
+                color: black;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
+        .main-section-Days {
+            height: 115vh;
+
+            background-color: var(--black_dark);
+
+            .content {
+                margin-top: 15%;
+                margin-left: 20%;
+                display: flex;
+                justify-content: left;
+                align-items: flex-start;
+                flex-direction: row;
+
+                .vinyl-image {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        border: 1px solid #383837;
+                        padding: 15px;
+
+                        height: 100%;
+                        max-width: 70%;
+                    }
+                }
+
+                h1 {
+                    margin: 0 2em;
+                }
+
+                .vinyl-tracklist {            
+                    h1 {
+                        font-weight: 600;
+                        color: var(--grey_text);
+                    }
+
+                    .list {
+                        margin-top: 1.5em;
+
+                        li {
+                            font-size: 12pt;
+                            margin: 1em 2em;
+                            list-style-type: none;
+                        }
+                    }                    
+
+                    hr {
+                        height: 1px;
+                        border: none;
+                        background-color: #383837;
+                        width: 180%;
+                    }
+                }
+                
+                .vinyl-description {
+                    width: 20%;
+                    overflow-y: hidden;
+
+                    h1 {
+                        margin-bottom: 1.5em;
+                        color: var(--grey_text);
+                    }
+
+                    span {
+                        padding: 1em 0;
+                    }
+
+                    h2 {
+                        font-weight: 500;
+                        margin: 1em 0;
+                    }
+
+                    h3 {
+                        font-size: 22pt;
+                        font-weight: 600;
+                        color: var(--grey_text);
+                        margin: 2em 2em 0 2em ;
+                    }
+                    
+                }                
+            }            
+        }
+
+        #footer-days {
+            height: 10%;
+
+            span {
+                padding-top: 0.5em;
+                margin: 0;
+            }
+        }
+    }
+}

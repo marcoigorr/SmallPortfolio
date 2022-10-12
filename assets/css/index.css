@@ -1,5 +1,6 @@
 @import url("../css/FearInoculum.css");
 @import url("../css/Lateralus.css");
+@import url("../css/10000Days.css");
 :root {
   --black_pure:#000000;
   --grey_dark: #252526;
@@ -13,7 +14,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Dekar-Regular";
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -28,7 +29,6 @@ body section {
   height: 100%;
 }
 body section header {
-  height: 12%;
   background-color: var(--black_pure);
   display: flex;
   align-items: center;
@@ -57,9 +57,6 @@ body section header a:hover {
   color: white;
 }
 @media screen and (min-width: 1024px) {
-  body section header {
-    height: 10%;
-  }
   body section header a {
     font-size: 18pt;
   }

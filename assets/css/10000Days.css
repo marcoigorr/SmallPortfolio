@@ -1,0 +1,96 @@
+:root {
+  --red_days: #ae0404;
+  --black_dark: #010101;
+  --grey_text: #696969;
+}
+
+body section#Days {
+  background-color: var(--red_days);
+}
+body section#Days header#Days {
+  background-color: var(--red_days);
+}
+body section#Days header#Days img#DaysLogo {
+  margin: 0 0 0 4em;
+  max-height: 100%;
+  width: 6%;
+}
+body section#Days header#Days a#days-aboutme {
+  font-size: 20pt;
+  font-weight: 520;
+  color: black;
+}
+body section#Days header#Days a#days-aboutme:hover {
+  color: white;
+}
+body section#Days .main-section-Days {
+  height: 115vh;
+  background-color: var(--black_dark);
+}
+body section#Days .main-section-Days .content {
+  margin-top: 15%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: row;
+}
+body section#Days .main-section-Days .content .vinyl-image {
+  display: flex;
+  justify-content: center;
+}
+body section#Days .main-section-Days .content .vinyl-image img {
+  border: 1px solid #383837;
+  padding: 15px;
+  height: 100%;
+  max-width: 70%;
+}
+body section#Days .main-section-Days .content h1 {
+  margin: 0 2em;
+}
+body section#Days .main-section-Days .content .vinyl-tracklist h1 {
+  font-weight: 600;
+  color: var(--grey_text);
+}
+body section#Days .main-section-Days .content .vinyl-tracklist .list {
+  margin-top: 1.5em;
+}
+body section#Days .main-section-Days .content .vinyl-tracklist .list li {
+  font-size: 12pt;
+  margin: 1em 2em;
+  list-style-type: none;
+}
+body section#Days .main-section-Days .content .vinyl-tracklist hr {
+  height: 1px;
+  border: none;
+  background-color: #383837;
+  width: 180%;
+}
+body section#Days .main-section-Days .content .vinyl-description {
+  width: 20%;
+  overflow-y: hidden;
+}
+body section#Days .main-section-Days .content .vinyl-description h1 {
+  margin-bottom: 1.5em;
+  color: var(--grey_text);
+}
+body section#Days .main-section-Days .content .vinyl-description span {
+  padding: 1em 0;
+}
+body section#Days .main-section-Days .content .vinyl-description h2 {
+  font-weight: 500;
+  margin: 1em 0;
+}
+body section#Days .main-section-Days .content .vinyl-description h3 {
+  font-size: 22pt;
+  font-weight: 600;
+  color: var(--grey_text);
+  margin: 2em 2em 0 2em;
+}
+body section#Days #footer-days {
+  height: 10%;
+}
+body section#Days #footer-days span {
+  padding-top: 0.5em;
+  margin: 0;
+}/*# sourceMappingURL=10000Days.css.map */
