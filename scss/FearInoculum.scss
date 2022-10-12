@@ -1,0 +1,114 @@
+
+:root {
+    --title: #828282;
+    --subtitle: #adadad;
+}
+
+body {
+    section {
+        header {
+            margin: 0 5em;
+        }
+
+        hr {
+            margin: 0 auto;
+            max-width: 90%;
+        }
+
+        .main-section {
+            width: 100%;
+
+            overflow-y: hidden;
+
+            .first-description {
+                margin: 5em auto 0 auto;
+                width: 75%;
+
+                display: flex;
+                justify-content: center;
+
+                img {
+                    max-height: 100%;
+                    width: 38%;
+                }
+
+                .general-info {
+                    display: block;
+                    width: 40%;
+
+                    h1 {
+                        color: var(--title);
+                        font-weight: 900;
+                        font-size: 30pt;
+
+                        padding: 1em;
+                    }                   
+                }
+
+                .vinyl-price {
+                    margin: 2em 3em;
+
+                    span {
+                        color: aliceblue;
+                        font-size: 24pt;
+                    }
+                }
+
+                .vinyl-subtitle {
+                    overflow-y: hidden;
+                    margin: 0 2em;
+
+                    span {
+                        color: var(--subtitle);
+                        font-weight: 300;
+                    }
+
+                }
+            }
+
+            .second-description {
+                margin: 7em auto 5em 23em;
+                height: 50vh;
+                width: 50%;
+
+                overflow-y: hidden;
+
+                .description {
+                    h1 {
+                        font-weight: 900;
+                        margin: 1em 0;
+                    }
+
+                    p {
+                        font-weight: 100;
+                        font-size: 14pt;
+                        margin: 0 21em 0 0;
+                        padding: 0.5em 0;
+                    }
+                } 
+                
+                .tracklist {
+                    h1 {
+                        margin: 1.5em 0 1em 0;
+                    }
+
+                    ol {
+                        li {
+                            padding: .5em 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        #footer-2 {
+            height: 8%;
+
+            span {
+                margin-top: 2em;
+            }
+        }
+            
+    }
+}
+

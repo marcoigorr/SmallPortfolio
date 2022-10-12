@@ -1,0 +1,79 @@
+:root {
+  --title: #828282;
+  --subtitle: #adadad;
+}
+
+body section header {
+  margin: 0 5em;
+}
+body section hr {
+  margin: 0 auto;
+  max-width: 90%;
+}
+body section .main-section {
+  width: 100%;
+  overflow-y: hidden;
+}
+body section .main-section .first-description {
+  margin: 5em auto 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+body section .main-section .first-description img {
+  max-height: 100%;
+  width: 38%;
+}
+body section .main-section .first-description .general-info {
+  display: block;
+  width: 40%;
+}
+body section .main-section .first-description .general-info h1 {
+  color: var(--title);
+  font-weight: 900;
+  font-size: 30pt;
+  padding: 1em;
+}
+body section .main-section .first-description .vinyl-price {
+  margin: 2em 3em;
+}
+body section .main-section .first-description .vinyl-price span {
+  color: aliceblue;
+  font-size: 24pt;
+}
+body section .main-section .first-description .vinyl-subtitle {
+  overflow-y: hidden;
+  margin: 0 2em;
+}
+body section .main-section .first-description .vinyl-subtitle span {
+  color: var(--subtitle);
+  font-weight: 300;
+}
+body section .main-section .second-description {
+  margin: 7em auto 5em 23em;
+  height: 50vh;
+  width: 50%;
+  overflow-y: hidden;
+}
+body section .main-section .second-description .description h1 {
+  font-weight: 900;
+  margin: 1em 0;
+}
+body section .main-section .second-description .description p {
+  font-weight: 100;
+  font-size: 14pt;
+  margin: 0 21em 0 0;
+  padding: 0.5em 0;
+}
+body section .main-section .second-description .tracklist h1 {
+  margin: 1.5em 0 1em 0;
+}
+body section .main-section .second-description .tracklist ol li {
+  padding: 0.5em 0;
+}
+body section #footer-2 {
+  height: 8%;
+}
+body section #footer-2 span {
+  margin-top: 2em;
+}/*# sourceMappingURL=FearInoculum.css.map */

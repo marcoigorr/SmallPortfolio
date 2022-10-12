@@ -1,9 +1,10 @@
+@import url("../css/FearInoculum.css");
 :root {
   --black_pure:#000000;
-  --grey: #252526;
+  --grey_dark: #252526;
   --black: #1e1e1e;
   --grey_light: #d4d4d4;
-  --grey_dark: #4d4d4e;
+  --grey: #4d4d4e;
   --red_light: #ff0000;
   --red_dark: #af0404;
 }
@@ -12,9 +13,9 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  color: white;
 }
 
 body {
