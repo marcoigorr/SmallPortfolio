@@ -23,7 +23,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: var(--grey);
+    background-color: var(--black_pure);
 
     section {
         height: 100%;
@@ -65,11 +65,20 @@ body {
                     color: white;
                 }
             }
+
+            @media screen and (min-width: 1024px) {
+                & {
+                    height: 10%;
+
+                    a {
+                        font-size: 18pt;
+                    }
+                }
+            }
         }
 
-
         .container {
-            height: 120%;
+            height: 100%;
 
             .image {
                 width: 50%;
@@ -143,7 +152,7 @@ body {
         }
 
         .about-me {
-            height: 100vh;
+            height: 85vh;
             width: 100%;
             background-color: var(--black);
                         
@@ -169,6 +178,20 @@ body {
                     margin: 0 auto;
                     max-width: 60%;
                 }
+            }
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            height: 5%;
+
+            span {
+                font-size: 14pt;
+                margin-bottom: 1.5em;
             }
         }
     }
