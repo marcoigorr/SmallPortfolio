@@ -1,0 +1,44 @@
+
+:root {
+    --red: #b42c2e;
+    --red_darker: #d3324f;
+}
+
+red {
+    color: var(--red);
+}
+
+body {
+    section {
+        header {
+            margin: 1em 2em;
+            
+            a#lateralus-aboutme {
+                color: var(--red);
+
+                &:hover {
+                    color: var(--red_darker);
+                }
+            }
+
+            img#LateralusLogo {
+                max-height: 100%;
+                width: 15%;
+            }
+        }
+
+        .main-section {
+            width: 100%;
+            height: 115vh;
+        }
+
+        #footer-lateralus {
+            height: 8%;
+            background-color: var(--red);
+
+            span {
+                margin: 1em 0 0 0;
+            }
+        }
+    }
+}

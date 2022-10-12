@@ -1,4 +1,5 @@
 @import url("../css/FearInoculum.css");
+@import url("../css/Lateralus.css");
 :root {
   --black_pure:#000000;
   --grey_dark: #252526;
@@ -103,7 +104,7 @@ body section .container .image h2 {
   text-align: center;
   max-width: 28%;
   margin: 0 auto;
-  transform: translateY(-32vh);
+  transform: translateY(-30vh);
   pointer-events: none;
   border-bottom: 1px solid transparent;
   transition: all ease-in-out 1s;

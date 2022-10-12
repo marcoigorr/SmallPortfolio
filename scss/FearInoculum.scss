@@ -1,6 +1,7 @@
 
 :root {
     --gold: #f5db63;
+    --gold_darker: #f7d22e;
     --title: #828282;
     --subtitle: #adadad;
 }
@@ -13,6 +14,14 @@ body {
     section {
         header {
             margin: 0 5em;
+
+            a#fearinoculum-aboutme {
+                color: var(--gold);
+
+                &:hover {
+                    color: var(--gold_darker);
+                }
+            }
 
             img#FearInoculumLogo {
                 margin: 0 0 0 1em;
