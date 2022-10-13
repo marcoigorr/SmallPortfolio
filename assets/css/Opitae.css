@@ -1,14 +1,97 @@
-header.OpitaeHeader {
-  margin: 2em 5em;
+:root {
+  --red_opitae: #b71404;
 }
-header.OpitaeHeader img#opitae-logo {
+
+.opitae-section {
+  background-image: url(../imgs/opitaeBackground.jpg);
+  background-position-x: -3em;
+  background-size: cover;
+}
+.opitae-section header.OpitaeHeader {
+  background-color: white;
+  margin: 0;
+  padding: 1em 1em;
+}
+.opitae-section header.OpitaeHeader img#opitae-logo {
   display: block;
   max-width: 10%;
   max-height: 20%;
   width: auto;
   height: auto;
 }
-
-.main-section-opitae {
+.opitae-section header.OpitaeHeader a#opitae-aboutme {
+  font-size: 16pt;
+  color: black;
+  transition: all ease-in-out 0.4s;
+}
+.opitae-section header.OpitaeHeader a#opitae-aboutme:hover {
+  font-size: 16.1pt;
+  color: var(--red_opitae);
+}
+.opitae-section .main-section-opitae {
   height: 100vh;
+}
+.opitae-section .main-section-opitae .top-description {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.opitae-section .main-section-opitae .top-description .opitae-vinyl img {
+  display: block;
+  max-width: 62%;
+  max-height: 62%;
+  width: auto;
+  height: auto;
+}
+.opitae-section .main-section-opitae .top-description .top-right-description {
+  max-width: 20%;
+  max-height: 100%;
+}
+.opitae-section .main-section-opitae .top-description .top-right-description h1 {
+  font-size: 28pt;
+  color: var(--red_opitae);
+  padding-left: 2em;
+  margin: 10vh 0 1em 0;
+}
+.opitae-section .main-section-opitae .top-description .top-right-description .top-description-content h2 {
+  font-size: 18pt;
+  color: var(--grey_light);
+}
+.opitae-section .main-section-opitae .top-description .top-right-description .top-description-content p {
+  padding: 2em 0 0 0;
+}
+.opitae-section .main-section-opitae .bottom-description {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 70%;
+}
+.opitae-section .main-section-opitae .bottom-description .opitae-vinyl-back img {
+  display: block;
+  max-width: 34%;
+  max-height: 38%;
+  width: auto;
+  height: auto;
+  margin: 0 10em 0 auto;
+  border: 1px solid #383837;
+  padding: 15px;
+}
+.opitae-section .main-section-opitae .bottom-description .tracklist {
+  width: 30vw;
+  margin: 0 auto 0 12em;
+}
+.opitae-section .main-section-opitae .bottom-description .tracklist h1 {
+  color: var(--red_opitae);
+}
+.opitae-section .main-section-opitae .bottom-description .tracklist ul {
+  margin: 1em 0 1em 0.5em;
+}
+.opitae-section .main-section-opitae .bottom-description .tracklist ul li {
+  color: var(--grey_light);
+  padding: 0.2em;
 }/*# sourceMappingURL=Opitae.css.map */
