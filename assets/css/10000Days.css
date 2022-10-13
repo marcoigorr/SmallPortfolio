@@ -28,7 +28,7 @@ body section#Days .main-section-Days {
   background-color: var(--black_dark);
 }
 body section#Days .main-section-Days .content {
-  margin: 8% auto 20vh 5vw;
+  margin: 8% auto 10vh 5vw;
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -47,7 +47,7 @@ body section#Days .main-section-Days .content .vinyl-image img {
   border: 1px solid var(--grey_border);
   padding: 15px;
   height: 100%;
-  max-width: 70%;
+  max-width: 60%;
 }
 body section#Days .main-section-Days .content h1 {
   margin: 0 2em;

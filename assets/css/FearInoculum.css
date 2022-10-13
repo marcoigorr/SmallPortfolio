@@ -9,16 +9,19 @@ gold {
   color: var(--gold);
 }
 
-body section header.FearInoculumHeader {
+body section {
+  background-color: var(--black_pure);
+}
+body section .FearInoculumHeader {
   margin: 0.2em 5em;
 }
-body section header.FearInoculumHeader a#fearinoculum-aboutme {
+body section .FearInoculumHeader a#fearinoculum-aboutme {
   color: var(--gold);
 }
-body section header.FearInoculumHeader a#fearinoculum-aboutme:hover {
+body section .FearInoculumHeader a#fearinoculum-aboutme:hover {
   color: var(--gold_darker);
 }
-body section header.FearInoculumHeader img#FearInoculumLogo {
+body section .FearInoculumHeader img#FearInoculumLogo {
   margin: 0 0 0 1em;
   max-height: 100%;
   width: 20%;
@@ -101,5 +104,5 @@ body section #footer-fearInoculum {
 body section #footer-fearInoculum span {
   font-weight: 500;
   color: var(--black_pure);
-  margin-top: 2em;
+  margin: 2em 0 1.5em 0;
 }/*# sourceMappingURL=FearInoculum.css.map */
