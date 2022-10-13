@@ -11,16 +11,16 @@ body {
 
         header#Days {  
             background-color: var(--red_days); 
-            margin: 0.5em 5em;
+            margin: 0;
                      
             img#DaysLogo {
                 margin: 0 0 0 4em;
                 max-height: 100%;
-                width: 10%;
+                width: 8%;
             }
 
             a#days-aboutme {
-                font-size: 16pt;
+                font-size: 18pt;
                 font-weight: 520;
                 color: black;
 
@@ -34,18 +34,22 @@ body {
             background-color: var(--black_dark);
 
             .content {
-                margin: 8% auto 10vh 5vw;
+                margin: 8% auto 20vh 5vw;
                 display: flex;
                 justify-content: left;
                 align-items: flex-start;
                 flex-direction: row;
+
+                @media screen and (min-width: 1440px) {
+                    margin: 8% auto 20vh 10vw;
+                }
 
                 .vinyl-image {
                     display: flex;
                     justify-content: center;
 
                     img {
-                        border: 1px solid #383837;
+                        border: 1px solid var(--grey_border);
                         padding: 15px;
 
                         height: 100%;

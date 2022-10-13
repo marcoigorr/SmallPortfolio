@@ -9,15 +9,15 @@ body section#Days {
 }
 body section#Days header#Days {
   background-color: var(--red_days);
-  margin: 0.5em 5em;
+  margin: 0;
 }
 body section#Days header#Days img#DaysLogo {
   margin: 0 0 0 4em;
   max-height: 100%;
-  width: 10%;
+  width: 8%;
 }
 body section#Days header#Days a#days-aboutme {
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: 520;
   color: black;
 }
@@ -28,18 +28,23 @@ body section#Days .main-section-Days {
   background-color: var(--black_dark);
 }
 body section#Days .main-section-Days .content {
-  margin: 8% auto 10vh 5vw;
+  margin: 8% auto 20vh 5vw;
   display: flex;
   justify-content: left;
   align-items: flex-start;
   flex-direction: row;
+}
+@media screen and (min-width: 1440px) {
+  body section#Days .main-section-Days .content {
+    margin: 8% auto 20vh 10vw;
+  }
 }
 body section#Days .main-section-Days .content .vinyl-image {
   display: flex;
   justify-content: center;
 }
 body section#Days .main-section-Days .content .vinyl-image img {
-  border: 1px solid #383837;
+  border: 1px solid var(--grey_border);
   padding: 15px;
   height: 100%;
   max-width: 70%;

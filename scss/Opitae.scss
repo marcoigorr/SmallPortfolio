@@ -1,5 +1,6 @@
 
 :root {
+    --black_opitae: #0f0f0f;
     --red_opitae: #b71404;
 }
 
@@ -9,7 +10,7 @@
     background-size: cover;
 
     header.OpitaeHeader {
-        background-color: white;
+        background-color: var(--black_opitae);
         margin: 0;
         padding: 1em 1em;
     
@@ -23,7 +24,7 @@
 
         a#opitae-aboutme {
             font-size: 16pt;
-            color: black;
+            color: var(--grey_light);
             transition: all ease-in-out .4s;
 
             &:hover {
@@ -35,6 +36,7 @@
     
     .main-section-opitae {
         margin-bottom: 5em;
+
         .top-description {
             display: flex;
             align-content: flex-start;
@@ -99,7 +101,7 @@
 
                     margin: 0 10em 0 auto;
 
-                    border: 1px solid #383837;
+                    border: 1px solid var(--grey_border);
                     padding: 15px;
                 }
             }
@@ -127,5 +129,13 @@
                 }
             }
         }        
+    }
+
+    .footer-opiate {
+        height: 10vh;
+
+        span {
+            margin: 0;
+        }
     }
 }

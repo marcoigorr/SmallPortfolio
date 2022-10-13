@@ -38,6 +38,8 @@ body section .main-section .first-description {
   justify-content: center;
 }
 body section .main-section .first-description img {
+  border: 1px solid var(--grey_border);
+  padding: 15px;
   height: 40%;
   width: 40%;
 }

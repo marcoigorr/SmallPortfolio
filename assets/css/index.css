@@ -10,6 +10,7 @@
   --grey: #4d4d4e;
   --red_light: #ff0000;
   --red_dark: #af0404;
+  --grey_border: #383837;
 }
 
 * {
@@ -30,7 +31,8 @@ body section {
   height: 100%;
 }
 body section header {
-  margin: 1em 3em;
+  margin: 0;
+  padding: 0.5em;
   background-color: var(--black_pure);
   display: flex;
   align-items: center;
@@ -40,19 +42,19 @@ body section header {
 body section header img {
   margin: 0 1.2em 0 3em;
   max-height: 100%;
-  width: 6%;
+  width: 5%;
   cursor: pointer;
 }
 body section header h1 {
   padding: 1.2em;
-  font-size: 16pt;
+  font-size: 18pt;
   color: var(--grey_light);
 }
 body section header a {
   margin-left: auto;
   margin-right: 10vw;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 16pt;
   color: var(--grey_light);
   transition: 0.4s;
 }
@@ -147,7 +149,8 @@ body section footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
+  background-color: var(--black_pure);
 }
 body section footer span {
   font-size: 14pt;

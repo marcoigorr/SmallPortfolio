@@ -9,9 +9,14 @@ red {
 }
 
 body {
-    section {
-        header {
-            margin: 2em 2em;
+    .lateralus-section {
+        background-image: url('../imgs/LateralusBackground.jpg');
+        background-size: cover;
+        background-position-y: -10vh;
+
+        .lateralus-header {
+            margin: 0;
+            padding: 0.5em;
             
             a#lateralus-aboutme {
                 color: var(--red);
