@@ -9,19 +9,19 @@ gold {
   color: var(--gold);
 }
 
-body section header {
-  margin: 0 5em;
+body section header.FearInoculumHeader {
+  margin: 0.2em 5em;
 }
-body section header a#fearinoculum-aboutme {
+body section header.FearInoculumHeader a#fearinoculum-aboutme {
   color: var(--gold);
 }
-body section header a#fearinoculum-aboutme:hover {
+body section header.FearInoculumHeader a#fearinoculum-aboutme:hover {
   color: var(--gold_darker);
 }
-body section header img#FearInoculumLogo {
+body section header.FearInoculumHeader img#FearInoculumLogo {
   margin: 0 0 0 1em;
   max-height: 100%;
-  width: 18%;
+  width: 20%;
 }
 body section hr {
   margin: 0 auto;

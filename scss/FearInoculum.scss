@@ -12,8 +12,8 @@ gold {
 
 body {
     section {
-        header {
-            margin: 0 5em;
+        header.FearInoculumHeader {
+            margin: 0.2em 5em;
 
             a#fearinoculum-aboutme {
                 color: var(--gold);
@@ -26,7 +26,7 @@ body {
             img#FearInoculumLogo {
                 margin: 0 0 0 1em;
                 max-height: 100%;
-                width: 18%;
+                width: 20%;
             }
         }
 

@@ -1,6 +1,7 @@
 @import url('../css/FearInoculum.css');
 @import url('../css/Lateralus.css');
 @import url('../css/10000Days.css');
+@import url('../css/Opitae.css');
 
 :root {
     --black_pure :#000000;
@@ -32,6 +33,7 @@ body {
         height: 100%;
 
         header {
+            margin: 1em 3em;
             background-color: var(--black_pure);
 
             display: flex;
@@ -43,7 +45,7 @@ body {
             img {
                 margin: 0 1.2em 0 3em;
                 max-height: 100%;
-                width: 4%;
+                width: 6%;
                 cursor: pointer;
             }
 
