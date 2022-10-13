@@ -29,9 +29,7 @@ body section#Days .main-section-Days {
   background-color: var(--black_dark);
 }
 body section#Days .main-section-Days .content {
-  margin-top: 8%;
-  margin-left: 6%;
-  margin-bottom: 10vh;
+  margin: 8% auto 10vh 20vw;
   display: flex;
   justify-content: left;
   align-items: flex-start;

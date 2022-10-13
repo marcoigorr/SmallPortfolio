@@ -94,4 +94,9 @@
 .opitae-section .main-section-opitae .bottom-description .tracklist ul li {
   color: var(--grey_light);
   padding: 0.2em;
+}
+.opitae-section .main-section-opitae .bottom-description .tracklist p {
+  color: var(--grey_light);
+  font-size: 18pt;
+  padding: 1em 0.5em;
 }/*# sourceMappingURL=Opitae.css.map */
