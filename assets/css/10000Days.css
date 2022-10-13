@@ -25,11 +25,10 @@ body section#Days header#Days a#days-aboutme:hover {
   color: white;
 }
 body section#Days .main-section-Days {
-  height: 90vh;
   background-color: var(--black_dark);
 }
 body section#Days .main-section-Days .content {
-  margin: 8% auto 10vh 20vw;
+  margin: 8% auto 10vh 5vw;
   display: flex;
   justify-content: left;
   align-items: flex-start;
