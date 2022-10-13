@@ -49,7 +49,7 @@ body {
 
             h1 {
                 padding: 1.2em;
-
+                font-size: 16pt;
                 color: var(--grey_light);
             }
 
@@ -58,21 +58,13 @@ body {
                 margin-right: 10vw;
 
                 text-decoration: none;
-                font-size: 16pt;
+                font-size: 14pt;
                 color: var(--grey_light);
 
                 transition: 0.4s;
 
                 &:hover {
                     color: white;
-                }
-            }
-
-            @media screen and (min-width: 1024px) {
-                & {
-                    a {
-                        font-size: 18pt;
-                    }
                 }
             }
         }
@@ -98,19 +90,19 @@ body {
 
                     &#FearInoculum {
                         background-image: url('https://nacionprogresiva.files.wordpress.com/2019/09/whatsapp-image-2019-09-09-at-19.46.531.jpeg');
-                        transition: transform 1.5s ease-in-out;
+                        transition: transform 1s ease-in-out;
                     }
                     &#Lateralus {
                         background-image: url('https://cdn.wallpapersafari.com/42/99/v7JedV.jpg');
-                        transition: transform 1.5s ease-in-out;
+                        transition: transform 1s ease-in-out;
                     }
                     &#Days {
                         background-image: url('https://www.rollingstone.com/wp-content/uploads/2018/06/rs-146282-1c26f0f04b4f46e335971adb04a50d71d3555e48.jpg?w=400');
-                        transition: transform 1.5s ease-in-out;
+                        transition: transform 1s ease-in-out;
                     }
                     &#Opitae {
                         background-image: url('https://i.scdn.co/image/ab67616d0000b273ac74c9c72ab2e3be3d53225f');
-                        transition: transform 1.5s ease-in-out;
+                        transition: transform 1s ease-in-out;
                     }
 
                     &:hover{
@@ -127,7 +119,7 @@ body {
                     pointer-events: none;
 
                     border-bottom: 1px solid transparent;
-                    transition: all ease-in-out 1s;
+                    transition: all ease-in-out .8s;
                     
                     &#Top-left {
                         max-width: 43%;
@@ -187,7 +179,7 @@ body {
             align-items: center;
 
             width: 100%;
-            height: 5%;
+            height: 10vh;
 
             span {
                 font-size: 14pt;

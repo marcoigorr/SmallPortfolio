@@ -15,11 +15,11 @@ body {
             img#DaysLogo {
                 margin: 0 0 0 4em;
                 max-height: 100%;
-                width: 6%;
+                width: 8%;
             }
 
             a#days-aboutme {
-                font-size: 20pt;
+                font-size: 16pt;
                 font-weight: 520;
                 color: black;
 
@@ -30,13 +30,12 @@ body {
         }
 
         .main-section-Days {
-            height: 115vh;
-
             background-color: var(--black_dark);
 
             .content {
-                margin-top: 15%;
-                margin-left: 20%;
+                margin-top: 8%;
+                margin-left: 6%;
+                margin-bottom: 10vh;
                 display: flex;
                 justify-content: left;
                 align-items: flex-start;

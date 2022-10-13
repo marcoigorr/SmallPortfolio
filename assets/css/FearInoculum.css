@@ -38,18 +38,18 @@ body section .main-section .first-description {
   justify-content: center;
 }
 body section .main-section .first-description img {
-  max-height: 100%;
-  width: 36%;
+  height: 40%;
+  width: 40%;
 }
 body section .main-section .first-description .general-info {
   display: block;
-  width: 30%;
+  width: 55%;
 }
 body section .main-section .first-description .general-info h1 {
   color: var(--title);
   font-weight: 900;
   font-size: 30pt;
-  padding: 1em;
+  padding: 0 1em 0 1em;
 }
 body section .main-section .first-description .vinyl-price {
   margin: 2em 3em;
@@ -67,9 +67,8 @@ body section .main-section .first-description .vinyl-subtitle span {
   font-weight: 300;
 }
 body section .main-section .second-description {
-  margin: 7em auto 5em 23em;
-  height: 50vh;
-  width: 50%;
+  margin: 2em auto 5em 12em;
+  width: 80%;
   overflow-y: hidden;
 }
 body section .main-section .second-description .description h1 {
@@ -93,7 +92,8 @@ body section #bottom-hr {
 }
 body section #footer-fearInoculum {
   background-color: var(--gold);
-  height: 8%;
+  height: 10vh;
+  overflow-y: hidden;
 }
 body section #footer-fearInoculum span {
   font-weight: 500;
