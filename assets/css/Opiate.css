@@ -104,6 +104,7 @@
 }
 .opiate-section .footer-opiate {
   height: 10vh;
+  background-color: transparent;
 }
 .opiate-section .footer-opiate span {
   margin: 0;
