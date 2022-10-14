@@ -69,46 +69,47 @@ body section .section-table {
 body section .section-table table {
   overflow-y: hidden;
   width: 50%;
+  max-width: 50%;
 }
-body section .section-table table tr {
+body section .section-table table tbody tr {
   cursor: pointer;
 }
-body section .section-table table tr td {
+body section .section-table table tbody tr td {
   border: none;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-body section .section-table table tr td.FearInoculum-element {
+body section .section-table table tbody tr td.FearInoculum-element {
   background-image: url("../imgs/FearInoculumTableBackground.jpg");
   background-position-y: -2em;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
-body section .section-table table tr td.Lateralus-element {
+body section .section-table table tbody tr td.Lateralus-element {
   background-image: url("../imgs/LateralusTableBackground.jpg");
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
-body section .section-table table tr td.Days-element {
+body section .section-table table tbody tr td.Days-element {
   background-image: url("../imgs/10000DaysTableBackground.webp");
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
-body section .section-table table tr td.Opiate-element {
+body section .section-table table tbody tr td.Opiate-element {
   background-image: url("../imgs/OpiateTableBackground.jpg");
   background-position-y: -2em;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
-body section .section-table table tr td:hover {
+body section .section-table table tbody tr td:hover {
   transform: scale(1.01);
 }
-body section .section-table table tr td:hover > h2 {
+body section .section-table table tbody tr td:hover > h2 {
   border-color: white;
   letter-spacing: 0pt;
 }
-body section .section-table table tr td h2 {
+body section .section-table table tbody tr td h2 {
   border-bottom: 1px solid transparent;
   transition: all ease-in-out 0.8s;
   letter-spacing: 1pt;
-  font-size: 24pt;
+  font-size: 20pt;
   margin: 0 auto;
   width: 43%;
 }
