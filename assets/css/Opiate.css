@@ -1,0 +1,110 @@
+:root {
+  --black_opiate: #0f0f0f;
+  --red_opiate: #b71404;
+}
+
+.opiate-section {
+  background-image: url(../imgs/opiateBackground.jpg);
+  background-position-x: -3em;
+  background-size: cover;
+}
+.opiate-section header.opiateHeader {
+  background-color: var(--black_opiate);
+  margin: 0;
+  padding: 1em 1em;
+}
+.opiate-section header.opiateHeader img#opiate-logo {
+  display: block;
+  max-width: 10%;
+  max-height: 20%;
+  width: auto;
+  height: auto;
+}
+.opiate-section header.opiateHeader a#opiate-aboutme {
+  font-size: 16pt;
+  color: var(--grey_light);
+  transition: all ease-in-out 0.4s;
+}
+.opiate-section header.opiateHeader a#opiate-aboutme:hover {
+  font-size: 16.1pt;
+  color: var(--red_opiate);
+}
+.opiate-section .main-section-opiate {
+  margin-bottom: 5em;
+}
+.opiate-section .main-section-opiate .top-description {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.opiate-section .main-section-opiate .top-description .opiate-vinyl img {
+  display: block;
+  max-width: 60%;
+  max-height: 60%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+.opiate-section .main-section-opiate .top-description .top-right-description {
+  max-width: 50%;
+  max-height: 100%;
+}
+.opiate-section .main-section-opiate .top-description .top-right-description h1 {
+  font-size: 28pt;
+  color: var(--red_opiate);
+  padding-left: 2em;
+  margin: 10vh 0 1em 0;
+}
+.opiate-section .main-section-opiate .top-description .top-right-description .top-description-content h2 {
+  font-size: 18pt;
+  color: var(--grey_light);
+}
+.opiate-section .main-section-opiate .top-description .top-right-description .top-description-content p {
+  padding: 2em 0 0 0;
+}
+.opiate-section .main-section-opiate .bottom-description {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 70%;
+}
+.opiate-section .main-section-opiate .bottom-description .opiate-vinyl-back img {
+  display: block;
+  max-width: 34%;
+  max-height: 38%;
+  width: auto;
+  height: auto;
+  margin: 0 10em 0 auto;
+  border: 1px solid var(--grey_border);
+  padding: 15px;
+}
+.opiate-section .main-section-opiate .bottom-description .tracklist {
+  width: 30vw;
+  margin: 0 auto 0 0;
+}
+.opiate-section .main-section-opiate .bottom-description .tracklist h1 {
+  color: var(--red_opiate);
+}
+.opiate-section .main-section-opiate .bottom-description .tracklist ul {
+  margin: 1em 0 1em 0.5em;
+}
+.opiate-section .main-section-opiate .bottom-description .tracklist ul li {
+  color: var(--grey_light);
+  padding: 0.2em;
+}
+.opiate-section .main-section-opiate .bottom-description .tracklist p {
+  color: var(--grey_light);
+  font-size: 18pt;
+  padding: 1em 0.5em;
+}
+.opiate-section .footer-opiate {
+  height: 10vh;
+}
+.opiate-section .footer-opiate span {
+  margin: 0;
+}/*# sourceMappingURL=Opiate.css.map */
