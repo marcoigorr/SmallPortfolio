@@ -76,6 +76,7 @@ body section .section-table table tbody tr {
   display: block;
   width: 50vw;
   height: 50vh;
+  padding-bottom: 2px;
   overflow-y: hidden;
 }
 body section .section-table table tbody tr td {
@@ -93,20 +94,20 @@ body section .section-table table tbody tr td {
 body section .section-table table tbody tr td.FearInoculum-element {
   background-image: url("../imgs/FearInoculumTableBackground.jpg");
   background-position-y: -2em;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 body section .section-table table tbody tr td.Lateralus-element {
   background-image: url("../imgs/LateralusTableBackground.jpg");
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 body section .section-table table tbody tr td.Days-element {
   background-image: url("../imgs/10000DaysTableBackground.webp");
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 body section .section-table table tbody tr td.Opiate-element {
   background-image: url("../imgs/OpiateTableBackground.jpg");
   background-position-y: -2em;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 body section .section-table table tbody tr td:hover {
   transform: scale(1.1);
