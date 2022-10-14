@@ -65,20 +65,30 @@ body section .section-table {
   height: 100%;
   display: flex;
   flex-direction: row;
+  overflow-y: hidden;
 }
 body section .section-table table {
-  overflow-y: hidden;
   width: 50%;
   max-width: 50%;
 }
 body section .section-table table tbody tr {
   cursor: pointer;
+  display: block;
+  width: 50vw;
+  height: 50vh;
+  overflow-y: hidden;
 }
 body section .section-table table tbody tr td {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   border: none;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 body section .section-table table tbody tr td.FearInoculum-element {
   background-image: url("../imgs/FearInoculumTableBackground.jpg");
@@ -99,7 +109,7 @@ body section .section-table table tbody tr td.Opiate-element {
   transition: transform 0.7s ease-in-out;
 }
 body section .section-table table tbody tr td:hover {
-  transform: scale(1.01);
+  transform: scale(1.1);
 }
 body section .section-table table tbody tr td:hover > h2 {
   border-color: white;

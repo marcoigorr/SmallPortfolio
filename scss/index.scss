@@ -77,22 +77,36 @@ body {
             height: 100%;
             display: flex;
             flex-direction: row;
-        
+            
+            overflow-y: hidden;
+
             table {
-                overflow-y: hidden;
                 width: 50%;
                 max-width: 50%;
 
                 tbody {
                     tr {
                         cursor: pointer;
-                        
+                        display: block;
+                        width: 50vw;
+                        height: 50vh;
+
+                        overflow-y: hidden;
+                                                
                         td {
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            align-items: center;
+
                             border: none;
                             text-align: center;
             
                             background-repeat: no-repeat;
                             background-size: cover;
+
+                            width: 100%;
+                            height: 100%;
             
                             &.FearInoculum-element {
                                 background-image: url("../imgs/FearInoculumTableBackground.jpg");
@@ -114,7 +128,7 @@ body {
                             }
             
                             &:hover {
-                                transform: scale(1.01);
+                                transform: scale(1.1);
             
                                 & > h2 {
                                     border-color: white;                        
