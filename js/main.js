@@ -1,8 +1,8 @@
 
-const table_elem = document.querySelectorAll('td');
+const element = document.querySelectorAll('.link'); // 'td' for tables, '.link' for divs
 
-for (let i = 0; i < table_elem.length; i++) {
-    table_elem[i].addEventListener('click', function(e) {        
+for (let i = 0; i < element.length; i++) {
+    element[i].addEventListener('click', function(e) {        
         switch (i) {
             case 0: // Fear Inoculum
                 window.open('\html/FearInoculum.html', '_self');  
