@@ -7,11 +7,11 @@ for (let i = 0; i < element.length; i++) {
             case 0: // Fear Inoculum
                 window.open('\html/FearInoculum.html', '_self');  
                 break;
-            case 1: // Lateralus
-                window.open('\html/10000Days.html', '_self');
-                break;
-            case 2: // 10.000 Days
+            case 1: // Lateralus for divs ? 10000Days.html
                 window.open('\html/Lateralus.html', '_self');
+                break;
+            case 2: // 10.000 Days for divs ? Lateralus.html
+                window.open('\html/10000Days.html', '_self');
                 break;
             case 3: // Opitae
                 window.open('\html/Opitae.html', '_self');
