@@ -2,6 +2,7 @@
 @import url("../css/Lateralus.css");
 @import url("../css/10000Days.css");
 @import url("../css/Opiate.css");
+@import url("../css/Donate.css");
 
 :root {
     --black_pure: #000000;
@@ -44,6 +45,15 @@ body {
 
             overflow-y: hidden;
 
+            .elements {
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+
+                margin-left: auto;
+                margin-right: 8vw;
+            }
+
             img {
                 margin: 0 1.2em 0 3em;
                 max-height: 100%;
@@ -58,8 +68,7 @@ body {
             }
 
             a {
-                margin-left: auto;
-                margin-right: 10vw;
+                margin: 0 3em 0 1em;
 
                 text-decoration: none;
                 font-size: 16pt;
