@@ -38,6 +38,15 @@ section .main-section-form .form-container form .input-field input {
 section .main-section-form .form-container form .input-field input:hover, section .main-section-form .form-container form .input-field input:focus {
   padding: 0.2em 0.3em;
 }
+section .main-section-form .form-container form h1 {
+  margin: 1.5em 0 0 0;
+}
+section .main-section-form .form-container form .address-field {
+  display: flex;
+}
+section .main-section-form .form-container form .address-field input#fnumber {
+  width: 20%;
+}
 section .main-section-form .form-container form .action {
   margin: 3em 0 1em 0;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOOL Vinyls | Sign Up</title>
+    <title>TOOL Vinyls | Buy me a coffee</title>
     <link rel="icon" href="../assets/imgs/IconTOOL.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../assets/css/index.css">
@@ -24,17 +24,34 @@
 
             <div class="form-container">
                 <img src="../assets/imgs/IconTOOL_V2.png" alt="">
-                <h1>Donation Form</h1>
+                <h1>User Info</h1>
                 
                 <!-- Form fields -->
                 <form action="../index.html" method="POST">
                     <div class="input-field">
-                        <input type="text" id="fname" name="fname" placeholder="First Name" autocomplete="off" required>
+                        <input type="text" id="fusername" name="fusername" placeholder="Username" autocomplete="off" minlength="4" maxlength="16" required>
                     </div>
 
                     <div class="input-field">
-                        <input type="text" id="fsurname" name="fsurname" placeholder="Second Name" autocomplete="off" required>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" autocomplete="off" minlength="3" maxlength="20" required>
                     </div>
+
+                    <div class="input-field">
+                        <input type="text" id="flastname" name="flastname" placeholder="Last Name" autocomplete="off" minlength="3" maxlength="20" required>
+                    </div>  
+
+                    <h1>Address</h1>
+
+                    <div class="address-field">
+                        <div class="input-field">
+                            <input type="text" id="faddress" name="faddress" placeholder="Address" maxlength="16" required>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="fnumber" name="fnumber" placeholder="N." maxlength="3" required>
+                        </div>
+
+                    </div>
+                    
 
                     <!-- Submit Button -->
                     <div class="action">
