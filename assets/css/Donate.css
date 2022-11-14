@@ -4,8 +4,8 @@ section .main-section-form {
 section .main-section-form .form-container {
   box-shadow: 0px 2px 15px rgba(255, 0, 0, 0.2);
   background-color: var(--black);
-  width: 35%;
-  max-width: 30%;
+  width: 33%;
+  max-width: 35%;
   margin: 5em auto 3em auto;
   padding: 0 1em 1em 1em;
   border-radius: 0.5em;
@@ -21,6 +21,33 @@ section .main-section-form .form-container h1 {
 }
 section .main-section-form .form-container form .input-field {
   margin: 1em 0 0 1em;
+}
+section .main-section-form .form-container form .input-field.file input#avatar {
+  width: 120px;
+  height: 9px;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translateY(1em);
+  margin-top: -1em;
+  cursor: pointer;
+}
+section .main-section-form .form-container form .input-field.file input#avatar:hover + label {
+  border-bottom: 0.5pt solid #747474;
+}
+section .main-section-form .form-container form .input-field.file label {
+  color: grey;
+  display: inline-block;
+  font-size: 12.5pt;
+  font-family: "Dekar-Regular";
+  border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom: 0.5pt solid transparent;
+  outline: none;
+  transition: all 0.2s;
+  padding: 0.2em 0.1em;
 }
 section .main-section-form .form-container form .input-field input {
   font-size: 15.5pt;
@@ -44,14 +71,40 @@ section .main-section-form .form-container form .input-field input[type=number] 
   margin: 0;
   width: 20%;
 }
+section .main-section-form .form-container form .input-field input#Iva {
+  width: 40%;
+}
 section .main-section-form .form-container form .input-field input#birthday {
   color: #808080;
 }
+section .main-section-form .form-container form .input-field input#email {
+  width: 70%;
+}
+section .main-section-form .form-container form .input-field input#phone {
+  width: 35%;
+}
+section .main-section-form .form-container form .input-field input#city {
+  width: 62%;
+}
 section .main-section-form .form-container form h1 {
-  margin: 1.5em 0 0 0;
+  margin: 1em 0 0 0;
 }
 section .main-section-form .form-container form .address-field {
   display: flex;
+}
+section .main-section-form .form-container form .password-field {
+  position: relative;
+  display: flex;
+}
+section .main-section-form .form-container form .password-field input {
+  box-sizing: border-box;
+}
+section .main-section-form .form-container form .password-field .fa-eye {
+  position: absolute;
+  cursor: pointer;
+  color: grey;
+  top: 55%;
+  left: 60%;
 }
 section .main-section-form .form-container form .action {
   margin: 3em 0 1em 0;
@@ -75,4 +128,15 @@ section .main-section-form .form-container form .action button:hover {
   color: white;
   background-color: rgb(139, 0, 0);
   letter-spacing: 0.8px;
+}
+section .main-section-form .form-container form .reset {
+  all: unset;
+  cursor: pointer;
+  color: grey;
+  border-bottom: 0.5pt solid #747474;
+  padding: 0.2em 0.1em;
+  transition: all 0.2s;
+}
+section .main-section-form .form-container form .reset:hover {
+  padding: 0.2em 0.3em;
 }/*# sourceMappingURL=Donate.css.map */

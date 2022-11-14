@@ -7,8 +7,8 @@ section {
             box-shadow: 0px 2px 15px rgba(255, 0, 0, 0.2);
 
             background-color: var(--black);
-            width: 35%;
-            max-width: 30%;
+            width: 33%;
+            max-width: 35%;
             margin: 5em auto 3em auto;
             padding: 0 1em 1em 1em;
 
@@ -26,9 +26,40 @@ section {
             }
 
             form {
-
                 .input-field {
                     margin: 1em 0 0 1em;
+
+                    &.file {
+                        & input#avatar {
+                            width: 120px;
+                            height: 9px;
+                            opacity: 0;
+                            overflow: hidden;
+                            position: relative;
+                            transform: translateY(1em);
+                            margin-top: -1em;
+                            cursor: pointer;
+
+                            &:hover + label{
+                                border-bottom: 0.5pt solid #747474; 
+                            }
+                        }
+
+                        & label {
+                            color: grey;
+                            display: inline-block;
+                            font-size: 12.5pt;
+                            font-family: "Dekar-Regular";
+                            border: 0;
+                            border-bottom-color: currentcolor;
+                            border-bottom-style: none;
+                            border-bottom-width: 0px;
+                            border-bottom: 0.5pt solid transparent;
+                            outline: none;
+                            transition: all 0.2s;
+                            padding: 0.2em 0.1em;
+                        }
+                    }
 
                     input {
                         font-size: 15.5pt;
@@ -45,7 +76,7 @@ section {
     
                         &:hover, &:focus {
                             padding: 0.2em 0.3em;
-                        }
+                        }                        
 
                         &[type=number] {
                             -webkit-appearance: none;
@@ -54,18 +85,53 @@ section {
                             width: 20%;
                         }
 
+                        &#Iva {
+                            width: 40%;
+                        }
+
                         &#birthday {
                             color: #808080;
                         }
+
+                        &#email {
+                            width: 70%;
+                        }
+
+                        &#phone {
+                            width: 35%;
+                        }
+
+                        &#city {
+                            width: 62%;
+                        }
                     }
+
+                    
                 }
 
                 h1 {
-                    margin: 1.5em 0 0 0;
+                    margin: 1em 0 0 0;
                 }
 
                 .address-field {
-                    display: flex;                    
+                    display: flex;  
+                }
+
+                .password-field {
+                    position: relative;
+                    display: flex;
+
+                    input {
+                        box-sizing: border-box;
+                    }
+
+                    .fa-eye {
+                        position: absolute;
+                        cursor: pointer;
+                        color: grey;
+                        top: 55%;
+                        left: 60%;
+                    }
                 }
 
                 .action {
@@ -96,6 +162,21 @@ section {
                             letter-spacing: 0.8px; 
                         }
                     }
+                }
+
+                .reset {
+                    all: unset;
+
+                    cursor: pointer;
+                    color: grey;
+                    border-bottom: 0.5pt solid #747474;
+                    padding: 0.2em 0.1em;
+                    transition: all 0.2s;
+
+                    &:hover {
+                        padding: 0.2em 0.3em;
+                    } 
+
                 }
             }
         }
